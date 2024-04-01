@@ -1,0 +1,170 @@
+nav {
+    background-color: #EBF4FF;
+}
+
+#dept-image {
+    filter: drop-shadow(2px 4px 6px #00000036)
+}
+
+.gif {
+    height: 200px;
+    width: 200px;
+
+    background-image: url("assets/christmasgif.gif");
+    background-size: contain;
+
+    position: fixed;
+
+    bottom: 1em;
+    right: 1em;
+}
+
+.section {
+    text-align: center;
+}
+
+.first-section {
+    background-color: #EBF4FF;
+}
+
+.second-section {
+    padding-top: 3em;
+}
+
+
+
+.contact-btn {
+    border-radius: 30px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-text {
+    font-size: 15px;
+}
+
+.btn-orange {
+    background-color: #FFBE3C;
+    color: #0A459E;
+
+    border: 0;
+
+    padding: 12px 36px;
+}
+
+.btn-orange:hover {
+    background-color: #2979EC;
+    color: white;
+
+    filter: drop-shadow(2px 4px 6px #00000036);
+}
+
+.btn-blue {
+    background-color: #2979EC;
+    color: white;
+    border: 0;
+
+    padding: 12px 36px;
+}
+
+.btn-blue:hover {
+    background-color: #FFBE3C;
+    color: #0A459E;
+
+    filter: drop-shadow(2px 4px 6px #00000036);
+}
+
+.logo {
+    margin: 0 0em;
+    height: 106px;
+    width: 106px;
+}
+
+.title-header {
+    font-size: 50px;
+    line-height: 52px;
+}
+
+.header {
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
+  }
+
+.white-bg {
+    background-color: white;
+}
+
+
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: #0A459E;
+
+    padding-top: 7em;
+    padding-bottom: 7em;
+ }
+
+ .padding-y {
+     padding-bottom: 3em!important;
+     padding-top: 3em!important;
+ }
+
+@media screen and (min-width:767px) {
+    .padding-y {
+        padding-bottom: 6em!important;
+        padding-top: 6em!important;
+    }
+
+    .row-margin {
+        padding: 0 1em;
+    }
+
+    .logo {
+        margin: 0 1em;
+    }
+
+    .section {
+        text-align: left;
+    }
+
+    .second-section {
+        padding-top: 7em;
+    }
+
+    .third-section {
+        margin: 7em 0;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .row-margin {
+        padding: 0 4em;
+    }
+
+    .section {
+        text-align: left;
+    }
+
+    .third-section {
+        margin: 7em 0;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .row-margin {
+        padding: 0 7em;
+    }
+
+    .section {
+        text-align: left;
+    }
+
+    .third-section {
+        margin: 7em 0;
+    }
+}
