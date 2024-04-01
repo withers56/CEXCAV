@@ -8,7 +8,7 @@ import Navbar from "./views/partials/Navbar.js";
 export default function render(props, route) {
     console.log('in render');
     const app = document.querySelector('#app');
-    const title = `CompanyName - ${route.title}`;
+    const title = `Coyote Excavation - ${route.title}`;
     document.title = title;
     app.innerHTML = `${Navbar(null)} ${route.returnView(props)}`;
     if (route.viewEvent){
